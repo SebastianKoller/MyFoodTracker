@@ -1,6 +1,7 @@
 package com.example.myfoodtracker.UI;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -104,7 +105,9 @@ public class LoginFragment extends Fragment
         if(emailTextView.getText().toString().compareTo("tom@email.com") == 0 &&
         passwordTextView.getText().toString().compareTo("12345") == 0)
         {
-            //Intent
+            Intent myIntent = new Intent(this.getActivity(), MainActivity.class);
+            myIntent.putExtra("key", "Tom"); //Optional parameters
+            startActivity(myIntent);
         }
     }
 }
