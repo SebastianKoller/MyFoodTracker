@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/myMeals"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Meals" />
+    <item
+        android:id="@+id/myFoods"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Pantry" />
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search" />
+</menu>
